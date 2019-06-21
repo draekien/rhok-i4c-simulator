@@ -1,10 +1,16 @@
 import React from "react";
 
+import ContributionForm from "./components/ContributionForm";
+
+import "./scripts/contributionForm";
+
+import "./styles/main.css";
+
 function App() {
   return (
     <div className="App">
       <div className="App-content">
-        <h1>Hello World</h1>
+        <ContributionForm />
       </div>
     </div>
   );
